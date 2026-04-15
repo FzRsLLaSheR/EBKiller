@@ -54,7 +54,7 @@ In this project:
 
 * Windows OS
 * Administrator privileges
-* `eb.sys` (WHQL-signed driver) in the same directory
+* `Kill.sys` (WHQL-signed driver) in the same directory
 
 ---
 
@@ -78,7 +78,7 @@ cargo run -- -n notepad.exe
 .
 ├── src/
 │   └── main.rs
-├── eb.sys
+├── Kill.sys
 └── README.md
 ```
 
