@@ -7,7 +7,9 @@
 
 > ⚠️ For educational and security research purposes only
 
-**EBKiller** is a Rust-based tool that demonstrates a **Bring Your Own Vulnerable Driver (BYOVD)** technique by leveraging a **Microsoft WHQL-signed driver (`eb.sys`)** to terminate processes from kernel mode.
+As of 2026-04-15, the driver is not listed on LOLDDrivers or in Microsoft's recommended driver block rules.
+
+**EBKiller** is a Rust-based tool that demonstrates a **Bring Your Own Vulnerable Driver (BYOVD)** technique by leveraging a **Microsoft WHQL-signed driver (`eb.sys`)** (SHA256:97bd65e98cdc4e93d49edd4ea905d43a61244df0fd3323e6649330de3b1be091) to terminate processes from kernel mode.
 
 ---
 
